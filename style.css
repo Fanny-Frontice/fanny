@@ -1,0 +1,129 @@
+body {
+    color: rgb(30, 30, 30);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px 0;
+    background: radial-gradient(circle, #ffffff, #f0f0f0);
+}
+
+	header {
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;}
+
+	nav.menu ul {
+    	list-style: none;
+    	margin: 0;
+    	padding: 0;
+	}
+
+	nav.menu ul li {
+    	display: inline;
+    	margin-right: 20px;
+	}
+
+	nav.menu ul li a {
+    	text-decoration: none;
+    	color: #333;
+    	font-weight: bold;
+	}
+
+	nav.menu ul li a:hover {
+    	color: #666;
+	}
+
+	h1 {
+    	font-family: Helvetica;
+    	font-size: 25px;
+    	text-transform: uppercase;
+    	font-weight: 300;
+    	margin-right: 20px;
+	}
+
+
+	h1 + p {
+    	font-weight: lighter;
+    	font-size: 25px;
+    	margin-bottom: 25px;
+	}
+
+	a {
+    	text-decoration: underline, italic;
+    	color: rgb(30, 30, 30);
+    	font-weight: bold;
+    	transition: color 0.3s ease;
+	}
+
+		a:hover {
+    	color: rgb(173,216,230);
+		}
+
+	.banner {
+    	display: flex;
+    	overflow: hidden;
+    	width: 100%;
+	}
+
+	.banner img {
+    	width: 100%;
+    	height: auto;
+    	transition: transform 0.5s ease;
+	}
+
+	.banner img:hover {
+    	transform: scale(1.1);
+	}
+
+	.banner img {
+    	width: 25%;
+    	height: auto;
+    	transition: transform 0.5s ease;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	
+	h1, h2, h4, {
+    	font-family: 'Montserrat', sans-serif;
+    	font-weight: 600;
+    	margin-bottom: 10px;
+    	font-size: 30px;
+	}
+
+	h4, h5, h6 {
+    	border: 2px solid #ccc;
+    	padding: 10px;
+    	margin-bottom: 20px;
+    	border-radius: 10px;
+    	background-color: rgb(173,216,230);
+    	border-color: rgb(173,216,230)
+	}
+
+
+		#biologie h4,
+		#ecologie h4,
+		#habitudes h4,
+		#habitats h4,
+		#menaces h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    position: ;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
